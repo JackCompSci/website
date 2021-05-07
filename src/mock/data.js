@@ -19,27 +19,27 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'I\'m currently an undergraduate student in Computer Science and Artificial Intelligence at Loughborough University, although I\'m just about to enter my year in industry. The lanugage I\'m most proficient in is Python, but I also have working knowledge of PHP, Java, and HTML/CSS.',
-  paragraphTwo: 'Outside of studying, my main role is as Operations Director (and Trustee) at <a href="https://conexresearch.com">Conex Research</a>, a young non-profit research organisation specialising in spacecraft design and mission planning. There, I oversee IT operations, as well as most HR and compliance functions.',
-  paragraphThree: 'Recently I completed my tenure as Vice Chair at <a href="https://lboro.space">Loughborough Space</a>, a student engineering group that is currently designing and manufacturing a hybrid rocket engine, which will soon fly in their custom built rocket, Beacon.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphTwo: 'Outside of studying, my main role is as Operations Director (and Trustee) at Conex Research, a young non-profit research organisation specialising in spacecraft design and mission planning. There, I oversee IT operations, as well as most HR and compliance functions.',
+  paragraphThree: 'Recently I completed my tenure as Vice Chair at Loughborough Space, a student engineering group that is currently designing and manufacturing a hybrid rocket engine, which will soon fly in their custom built rocket, Beacon.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'p_conexresearch.jpg',
+    img: 'p_conexresearch.png',
     title: 'Conex Research',
-    info: 'My role at Conex included developing their website, which was designed by <a href="https://twitter.com/TomDixonDesign">Tom Dixon</a> and implemented by me using the Webflow platform.',
+    info: 'My role at Conex included developing their website, which was designed by Tom Dixon and implemented by me using the Webflow platform.',
     info2: 'I also administrate Google Workspace (formerly G Suite), and a variety of cloud software products including Okta and Cloudflare for Teams.',
     url: 'https://conexresearch.com',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'p_lborospace.jpg',
+    img: 'p_lborospace.png',
     title: 'Loughborough Space',
-    info: 'I also developed the Loughborough Space website, which runs on WordPress. This site received around',
+    info: 'I also developed the Loughborough Space website, which runs on self-hosted WordPress.',
     info2: '',
     url: 'https://lboro.space',
     repo: '', // if no repo, the button will not show up
