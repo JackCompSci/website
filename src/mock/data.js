@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'p_conexresearch.png',
+    img: 'p_conex.png',
     title: 'Conex Research',
     info: 'My role at Conex included developing their website, which was designed by Tom Dixon and implemented by me using the Webflow platform.',
     info2: 'I also administrate Google Workspace (formerly G Suite), and a variety of cloud software products including Okta and Cloudflare for Teams.',
